@@ -5,8 +5,11 @@ import bank.Bank;
 public class RightWay {
 
 	public static void main(String[] args) {
-		Bank bank = new Bank("Milford", "Loveland", "Online");
-		System.out.println(bank.toString());
+	/*	Bank bank = new Bank("Milford", "Loveland", "Online");
+		System.out.println(bank.toString());*/
+		
+		Bank myBank = new Bank();
+		
 
 	}
 
